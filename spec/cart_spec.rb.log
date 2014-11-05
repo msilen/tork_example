@@ -1,0 +1,26 @@
+[31mF[0m
+
+Failures:
+
+  1) Cart a new cart contains no items
+     [31mFailure/Error: Unable to find matching line from backtrace[0m
+     [31m  expected  to respond to `empty?`[0m
+     [36m# spec/cart_spec.rb:7:in `block (3 levels) in <top (required)>'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/master.rb:108:in `call'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/master.rb:108:in `block in at_exit'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/master.rb:42:in `fork'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/master.rb:42:in `test'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:84:in `recv'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:46:in `block (2 levels) in loop'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:38:in `each'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:38:in `block in loop'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:36:in `catch'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/server.rb:36:in `loop'[0m
+     [36m# /home/dark/.rvm/gems/ruby-2.1.2/gems/tork-20.0.0/lib/tork/master.rb:27:in `loop'[0m
+
+Finished in 0.00283 seconds (files took 0.17792 seconds to load)
+[31m1 example, 1 failure[0m
+
+Failed examples:
+
+[31mrspec spec/cart_spec.rb:6[0m [36m# Cart a new cart contains no items[0m
